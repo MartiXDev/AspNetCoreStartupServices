@@ -1,10 +1,11 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
+using MartiX.ListStartupServices;
 using System.Collections.Generic;
 using WebApplication;
 
-namespace Ardalis.ListStartupServices.Tests
+namespace MartiX.ListStartupServices.Tests
 {
     public class CustomWebApplicationFactory<TStartup> : WebApplicationFactory<Startup>
     {
@@ -12,10 +13,6 @@ namespace Ardalis.ListStartupServices.Tests
         {
             builder.ConfigureServices(services =>
             {
-                // Create a new service provider.
-                var serviceProvider = new ServiceCollection()
-                .BuildServiceProvider();
-
                 services.Configure<ServiceConfig>(config =>
                 {
                     config.Services = new List<ServiceDescriptor>(services);

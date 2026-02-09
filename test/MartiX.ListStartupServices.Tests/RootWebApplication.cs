@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using WebApplication;
 using Xunit;
 
-namespace Ardalis.ListStartupServices.Tests
+namespace MartiX.ListStartupServices.Tests
 {
     public class RootWebApplication : IClassFixture<CustomWebApplicationFactory<Startup>>
     {

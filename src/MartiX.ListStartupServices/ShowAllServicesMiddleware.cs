@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Options;
-using System.Text;
+﻿using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.WebUtilities;
+using Microsoft.Extensions.Options;
+using HttpContext = Microsoft.AspNetCore.Http.HttpContext;
 
-namespace Ardalis.ListStartupServices
+namespace MartiX.ListStartupServices
 {
     // You may need to install the Microsoft.AspNetCore.Http.Abstractions package into your project
     public class ShowAllServicesMiddleware

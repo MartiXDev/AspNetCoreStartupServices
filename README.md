@@ -1,9 +1,9 @@
-[![NuGet](https://img.shields.io/nuget/v/Ardalis.ListStartupServices.svg)](https://www.nuget.org/packages/Ardalis.ListStartupServices)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.ListStartupServices.svg)](https://www.nuget.org/packages/Ardalis.ListStartupServices)
+[![NuGet](https://img.shields.io/nuget/v/MartiX.ListStartupServices.svg)](https://www.nuget.org/packages/MartiX.ListStartupServices)[![NuGet](https://img.shields.io/nuget/dt/MartiX.ListStartupServices.svg)](https://www.nuget.org/packages/MartiX.ListStartupServices)
 [![Build and Test .NET CI](https://github.com/ardalis/AspNetCoreStartupServices/actions/workflows/dotnet.yml/badge.svg)](https://github.com/ardalis/AspNetCoreStartupServices/actions/workflows/dotnet.yml)
 
 # ASP.NET Core ListStartupServices Middleware Package
 
-A diagnostic middleware [nuget package](https://www.nuget.org/packages/Ardalis.ListStartupServices) for listing all services registered with Startup in an ASP.NET Core applications.
+A diagnostic middleware [nuget package](https://www.nuget.org/packages/MartiX.ListStartupServices) for listing all services registered with Startup in an ASP.NET Core applications.
 
 # Getting Started
 
@@ -19,7 +19,9 @@ services.Configure<ServiceConfig>(config =>
     config.Path = "/mylistallservicespath";
 });
 ```
+
 1. Add the following to your Configure method (in an if block so it only runs in dev environemnt)
+
 ```
 if (env.IsDevelopment())
 {
@@ -37,4 +39,3 @@ If it's working you should see output like this showing all of your services:
 - [Original Sample Article](https://ardalis.com/how-to-list-all-services-available-to-an-asp-net-core-app)
 - [Screencast of Extracting Middleware and Publishing to Nuget.org](https://www.youtube.com/watch?v=6-WcxBLyIes)
 - [Follow ardalis on twitch.tv](https://www.twitch.tv/ardalis)
-

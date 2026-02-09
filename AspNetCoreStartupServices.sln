@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.28516.95
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreStartupServices", "src\WebDemo\AspNetCoreStartupServices.csproj", "{A0FE7F35-D275-45FA-9EA8-9DAB07DE11AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ardalis.ListStartupServices", "src\Ardalis.ListStartupServices\Ardalis.ListStartupServices.csproj", "{529BFABB-F05D-4471-BA58-513704707563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MartiX.ListStartupServices", "src\MartiX.ListStartupServices\MartiX.ListStartupServices.csproj", "{529BFABB-F05D-4471-BA58-513704707563}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3D912F82-E6BE-4B71-B8A6-7671EC04DD1F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3FD5A977-DABA-4831-84D7-50CBE08F4A66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ardalis.ListStartupServices.Tests", "test\Ardalis.ListStartupServices.Tests\Ardalis.ListStartupServices.Tests.csproj", "{61613471-4117-4A90-83DB-346D00BF987A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MartiX.ListStartupServices.Tests", "test\MartiX.ListStartupServices.Tests\MartiX.ListStartupServices.Tests.csproj", "{61613471-4117-4A90-83DB-346D00BF987A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

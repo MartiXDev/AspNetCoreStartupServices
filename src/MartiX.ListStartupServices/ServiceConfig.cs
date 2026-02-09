@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 
-namespace Ardalis.ListStartupServices
+namespace MartiX.ListStartupServices
 {
     public class ServiceConfig
     {
